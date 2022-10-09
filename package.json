@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "debounce",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "node build/front/build.js",
     "preversion": "npm run build && git add ."
